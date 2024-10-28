@@ -1,0 +1,38 @@
+body {
+    background-color: brown;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Courier New', monospace;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-family: 'Georgia', serif;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        font-family: 'Verdana', sans-serif;
+    }
+}
